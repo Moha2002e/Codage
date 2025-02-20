@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pro\\Documents\\c#\\code\\C\\c#\\ProjetFinal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE8C891-A796-41C2-A259-E2610572B252}|ProjetFinal.UI\\ProjetFinal.UI.csproj|c:\\users\\pro\\documents\\c#\\code\\c\\c#\\projetfinal\\projetfinal.ui\\inscriptionwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7AE8C891-A796-41C2-A259-E2610572B252}|ProjetFinal.UI\\ProjetFinal.UI.csproj|solutionrelative:projetfinal.ui\\inscriptionwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE8C891-A796-41C2-A259-E2610572B252}|ProjetFinal.UI\\ProjetFinal.UI.csproj|c:\\users\\pro\\documents\\c#\\code\\c\\c#\\projetfinal\\projetfinal.ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE8C891-A796-41C2-A259-E2610572B252}|ProjetFinal.UI\\ProjetFinal.UI.csproj|solutionrelative:projetfinal.ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE8C891-A796-41C2-A259-E2610572B252}|ProjetFinal.UI\\ProjetFinal.UI.csproj|c:\\users\\pro\\documents\\c#\\code\\c\\c#\\projetfinal\\projetfinal.ui\\inscriptionwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE8C891-A796-41C2-A259-E2610572B252}|ProjetFinal.UI\\ProjetFinal.UI.csproj|solutionrelative:projetfinal.ui\\inscriptionwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE8C891-A796-41C2-A259-E2610572B252}|ProjetFinal.UI\\ProjetFinal.UI.csproj|c:\\users\\pro\\documents\\c#\\code\\c\\c#\\projetfinal\\projetfinal.ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7AE8C891-A796-41C2-A259-E2610572B252}|ProjetFinal.UI\\ProjetFinal.UI.csproj|solutionrelative:projetfinal.ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InscriptionWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pro\\Documents\\c#\\code\\C\\c#\\ProjetFinal\\ProjetFinal.UI\\InscriptionWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProjetFinal.UI\\InscriptionWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\pro\\Documents\\c#\\code\\C\\c#\\ProjetFinal\\ProjetFinal.UI\\InscriptionWindow.xaml.cs",
+              "RelativeToolTip": "ProjetFinal.UI\\InscriptionWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T09:36:00.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InscriptionWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\pro\\Documents\\c#\\code\\C\\c#\\ProjetFinal\\ProjetFinal.UI\\InscriptionWindow.xaml",
+              "RelativeDocumentMoniker": "ProjetFinal.UI\\InscriptionWindow.xaml",
+              "ToolTip": "C:\\Users\\pro\\Documents\\c#\\code\\C\\c#\\ProjetFinal\\ProjetFinal.UI\\InscriptionWindow.xaml",
+              "RelativeToolTip": "ProjetFinal.UI\\InscriptionWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-20T09:35:19.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pro\\Documents\\c#\\code\\C\\c#\\ProjetFinal\\ProjetFinal.UI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProjetFinal.UI\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\pro\\Documents\\c#\\code\\C\\c#\\ProjetFinal\\ProjetFinal.UI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ProjetFinal.UI\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T09:34:11.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\pro\\Documents\\c#\\code\\C\\c#\\ProjetFinal\\ProjetFinal.UI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ProjetFinal.UI\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\pro\\Documents\\c#\\code\\C\\c#\\ProjetFinal\\ProjetFinal.UI\\MainWindow.xaml",
+              "RelativeToolTip": "ProjetFinal.UI\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-20T09:15:54.293Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

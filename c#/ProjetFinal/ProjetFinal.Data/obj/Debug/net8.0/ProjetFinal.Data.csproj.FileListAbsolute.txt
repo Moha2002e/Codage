@@ -1,0 +1,12 @@
+C:\Users\pro\Documents\c#\code\C\c#\ProjetFinal\ProjetFinal.Data\bin\Debug\net8.0\ProjetFinal.Data.deps.json
+C:\Users\pro\Documents\c#\code\C\c#\ProjetFinal\ProjetFinal.Data\bin\Debug\net8.0\ProjetFinal.Data.dll
+C:\Users\pro\Documents\c#\code\C\c#\ProjetFinal\ProjetFinal.Data\bin\Debug\net8.0\ProjetFinal.Data.pdb
+C:\Users\pro\Documents\c#\code\C\c#\ProjetFinal\ProjetFinal.Data\obj\Debug\net8.0\ProjetFinal.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pro\Documents\c#\code\C\c#\ProjetFinal\ProjetFinal.Data\obj\Debug\net8.0\ProjetFinal.Data.AssemblyInfoInputs.cache
+C:\Users\pro\Documents\c#\code\C\c#\ProjetFinal\ProjetFinal.Data\obj\Debug\net8.0\ProjetFinal.Data.AssemblyInfo.cs
+C:\Users\pro\Documents\c#\code\C\c#\ProjetFinal\ProjetFinal.Data\obj\Debug\net8.0\ProjetFinal.Data.csproj.CoreCompileInputs.cache
+C:\Users\pro\Documents\c#\code\C\c#\ProjetFinal\ProjetFinal.Data\obj\Debug\net8.0\ProjetFinal.Data.sourcelink.json
+C:\Users\pro\Documents\c#\code\C\c#\ProjetFinal\ProjetFinal.Data\obj\Debug\net8.0\ProjetFinal.Data.dll
+C:\Users\pro\Documents\c#\code\C\c#\ProjetFinal\ProjetFinal.Data\obj\Debug\net8.0\refint\ProjetFinal.Data.dll
+C:\Users\pro\Documents\c#\code\C\c#\ProjetFinal\ProjetFinal.Data\obj\Debug\net8.0\ProjetFinal.Data.pdb
+C:\Users\pro\Documents\c#\code\C\c#\ProjetFinal\ProjetFinal.Data\obj\Debug\net8.0\ref\ProjetFinal.Data.dll
