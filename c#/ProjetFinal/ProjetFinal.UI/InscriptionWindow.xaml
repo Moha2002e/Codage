@@ -1,35 +1,85 @@
-﻿<Window x:Class="WpfApp1.InscriptionWindow"
+﻿<Window x:Class="Voyagera.RegisterWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Voyagera.UI"
         mc:Ignorable="d"
-        Title="Voyages"
-        WindowStartupLocation="CenterScreen" Height="889" Width="1067">
+        Title="Inscription - Voyagera" Height="450" Width="800"
+        WindowState="Maximized"
+        WindowStyle="None"
+        ResizeMode="NoResize">
+
+    <Window.Resources>
+        <!-- Animation pour le bouton au survol -->
+        <Storyboard x:Key="ButtonHoverStoryboard">
+            <ColorAnimation Storyboard.TargetProperty="(Button.Background).(SolidColorBrush.Color)"
+                            To="#FF0057" Duration="0:0:0.3"/>
+        </Storyboard>
+        <Storyboard x:Key="ButtonLeaveStoryboard">
+            <ColorAnimation Storyboard.TargetProperty="(Button.Background).(SolidColorBrush.Color)"
+                            To="#FF008C" Duration="0:0:0.3"/>
+        </Storyboard>
+    </Window.Resources>
 
     <Grid>
-        <!-- Image de fond -->
         <Grid.Background>
-            <ImageBrush ImageSource="/vecteezy_aircraft-wing-and-clouds-at-sunset_1963903.jpg" Stretch="UniformToFill"/>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                <GradientStop Color="#00A8E8" Offset="0"/>
+                <GradientStop Color="White" Offset="1"/>
+            </LinearGradientBrush>
         </Grid.Background>
 
-        <!-- Effet de flou -->
-        <Rectangle Opacity="0.5" Margin="2,3,-1,-3" Fill="#AAFFFFFF">
-            <Rectangle.Effect>
-                <BlurEffect Radius="15"/>
-            </Rectangle.Effect>
-        </Rectangle>
+        <Border Background="White" CornerRadius="10" Padding="20" Width="668"
+                HorizontalAlignment="Center" VerticalAlignment="Center" Height="469">
+            <Border.RenderTransform>
+                <TranslateTransform x:Name="registerTranslate" Y="30"/>
+            </Border.RenderTransform>
+            <Border.Triggers>
+                <EventTrigger RoutedEvent="Border.Loaded">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetProperty="Opacity"
+                                             From="0" To="1" Duration="0:0:0.5"/>
+                            <DoubleAnimation Storyboard.TargetProperty="RenderTransform.(TranslateTransform.Y)"
+                                             From="30" To="0" Duration="0:0:0.5"/>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Border.Triggers>
 
-        <!-- Contenu principal -->
-        <DockPanel LastChildFill="True" Cursor="Hand">
-            <!-- Header, Docked en haut -->
-            <StackPanel Orientation="Horizontal" Background="#FF6600" Height="70" DockPanel.Dock="Top">
-                <Label Content="VoyagesApp" FontSize="24" Foreground="White" Margin="20,0,0,0" VerticalAlignment="Center" FontWeight="Bold" />
+            <StackPanel>
+                <TextBlock Text="Inscription - Voyegera" FontSize="24" FontWeight="Bold"
+                           Foreground="#007EA7" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+                <TextBlock Text="Nom d'utilisateur:" FontWeight="SemiBold" Margin="0,0,0,5" HorizontalAlignment="Center"/>
+                <TextBox x:Name="txtUsername" Height="30" Margin="0,0,0,10"
+                         BorderBrush="#007EA7" BorderThickness="1" Padding="5" Width="400" HorizontalAlignment="Center" TextAlignment="Center" />
+                <TextBlock Text="Email:" FontWeight="SemiBold" Margin="0,0,0,5" HorizontalAlignment="Center"/>
+                <TextBox x:Name="txtEmail" Height="30" Margin="0,0,0,10"
+                         BorderBrush="#007EA7" BorderThickness="1" Padding="5" Width="400" HorizontalAlignment="Center" TextAlignment="Center" />
+                <TextBlock Text="Mot de passe:" FontWeight="SemiBold" Margin="0,0,0,5" HorizontalAlignment="Center"/>
+                <PasswordBox x:Name="txtPassword" Height="30" Margin="0,0,0,10"
+                             BorderBrush="#007EA7" BorderThickness="1" Padding="5" Width="400" HorizontalAlignment="Center" />
+                <TextBlock Text="Confirmer le mot de passe:" FontWeight="SemiBold" Margin="0,0,0,5" HorizontalAlignment="Center"/>
+                <PasswordBox x:Name="txtConfirmPassword" Height="30" Margin="0,0,0,20"
+                             BorderBrush="#007EA7" BorderThickness="1" Padding="5" Width="400" HorizontalAlignment="Center" />
+                <Button Content="S'inscrire" Height="40" Background="#FF008C" Foreground="White"
+                        FontWeight="Bold" BorderThickness="0" Cursor="Hand" Width="400">
+                    <Button.Triggers>
+                        <EventTrigger RoutedEvent="Button.MouseEnter">
+                            <BeginStoryboard Storyboard="{StaticResource ButtonHoverStoryboard}"/>
+                        </EventTrigger>
+                        <EventTrigger RoutedEvent="Button.MouseLeave">
+                            <BeginStoryboard Storyboard="{StaticResource ButtonLeaveStoryboard}"/>
+                        </EventTrigger>
+                    </Button.Triggers>
+                </Button>
+                <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0">
+    <Hyperlink Click="OnHyperlinkClick">
+        <TextBlock Text="Vous avez un compte ?" Foreground="#007EA7" Cursor="Hand" />
+    </Hyperlink>
+</TextBlock>
             </StackPanel>
-
-            <!-- Formulaire de connexion -->
-            <Grid/>
-        </DockPanel>
-        <Rectangle HorizontalAlignment="Left" Height="100" Margin="1085,291,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
+        </Border>
     </Grid>
 </Window>

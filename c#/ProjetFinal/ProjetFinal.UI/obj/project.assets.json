@@ -52,11 +52,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pro\\Documents\\c#\\code\\C\\c#\\ProjetFinal\\ProjetFinal.UI\\ProjetFinal.UI.csproj",
+      "projectUniqueName": "C:\\Users\\pro\\Documents\\c#\\code\\Codage\\c#\\ProjetFinal\\ProjetFinal.UI\\ProjetFinal.UI.csproj",
       "projectName": "ProjetFinal.UI",
-      "projectPath": "C:\\Users\\pro\\Documents\\c#\\code\\C\\c#\\ProjetFinal\\ProjetFinal.UI\\ProjetFinal.UI.csproj",
+      "projectPath": "C:\\Users\\pro\\Documents\\c#\\code\\Codage\\c#\\ProjetFinal\\ProjetFinal.UI\\ProjetFinal.UI.csproj",
       "packagesPath": "C:\\Users\\pro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pro\\Documents\\c#\\code\\C\\c#\\ProjetFinal\\ProjetFinal.UI\\obj\\",
+      "outputPath": "C:\\Users\\pro\\Documents\\c#\\code\\Codage\\c#\\ProjetFinal\\ProjetFinal.UI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -77,11 +77,11 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\pro\\Documents\\c#\\code\\C\\c#\\ProjetFinal\\ProjetFinal.Core\\ProjetFinal.Core.csproj": {
-              "projectPath": "C:\\Users\\pro\\Documents\\c#\\code\\C\\c#\\ProjetFinal\\ProjetFinal.Core\\ProjetFinal.Core.csproj"
+            "C:\\Users\\pro\\Documents\\c#\\code\\Codage\\c#\\ProjetFinal\\ProjetFinal.Core\\ProjetFinal.Core.csproj": {
+              "projectPath": "C:\\Users\\pro\\Documents\\c#\\code\\Codage\\c#\\ProjetFinal\\ProjetFinal.Core\\ProjetFinal.Core.csproj"
             },
-            "C:\\Users\\pro\\Documents\\c#\\code\\C\\c#\\ProjetFinal\\ProjetFinal.Data\\ProjetFinal.Data.csproj": {
-              "projectPath": "C:\\Users\\pro\\Documents\\c#\\code\\C\\c#\\ProjetFinal\\ProjetFinal.Data\\ProjetFinal.Data.csproj"
+            "C:\\Users\\pro\\Documents\\c#\\code\\Codage\\c#\\ProjetFinal\\ProjetFinal.Data\\ProjetFinal.Data.csproj": {
+              "projectPath": "C:\\Users\\pro\\Documents\\c#\\code\\Codage\\c#\\ProjetFinal\\ProjetFinal.Data\\ProjetFinal.Data.csproj"
             }
           }
         }
